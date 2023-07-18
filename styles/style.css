@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+main {
+    margin: 45px 240px;
+}
+
+/* nav start */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 240px;
+
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-left,
+.nav-right,
+.nav-about,
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-name {
+    margin-left: 20px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#G {
+    color: #FF42A5;
+
+}
+
+.nav-right {
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-about>p {
+    margin-right: 30px;
+}
+
+
+.nav-links {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 18px;
+}
+
+.nav-links>p,
+i {
+    margin-right: 20px;
+}
