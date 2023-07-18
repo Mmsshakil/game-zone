@@ -221,6 +221,33 @@ i {
     right: 6.25rem;
 }
 
+
+
+/* buttons section start */
+
+.buttons {
+    padding: 10px 200px;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 20px;
+
+}
+
+.btn-all {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+.btn-all>p {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
 /* responsive */
 
 @media screen and (max-width:576px) {
