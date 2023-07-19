@@ -118,6 +118,12 @@ i {
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
+    transition: background-color 2s, color 2s;
+}
+
+.btn-primary-pink:hover {
+    background-color: #fff;
+    color: #0B0223;
 }
 
 .btn-primary-blue {
@@ -128,7 +134,14 @@ i {
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
+    transition: background-color 2s, color 2s;
 }
+
+.btn-primary-blue:hover {
+    background-color: #fff;
+    color: #0B0223;
+}
+
 
 
 
