@@ -262,6 +262,13 @@ i {
 footer {
     display: flex;
     flex-direction: column;
+    background-color: #0B0223;
+    padding-top: 130px;
+    padding-bottom: 130px;
+
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .footer-icon {
@@ -270,17 +277,38 @@ footer {
     justify-content: center;
 }
 
-.fotter-types>ul {
+.fotter-types>ul,
+.fotter-social>ul,
+.fotter-privacy>ul {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
+    padding: 25px;
 }
 
-.fotter-types li {
+.fotter-types li,
+.fotter-social li,
+.fotter-privacy li {
     list-style: none;
 }
 
 
+.fotter-social i {
+    font-size: 25px;
+}
+
+.copyright,
+.fotter-privacy {
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 12px;
+    font-weight: 400;
+
+
+}
+
+/* ---------------------------------------------------------------- */
 /* responsive */
 
 @media screen and (max-width:576px) {
