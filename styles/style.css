@@ -403,6 +403,10 @@ footer {
         text-align: center;
     }
 
+    .play-title {
+        font-size: 3.2rem;
+    }
+
     /* buttons section start */
 
     .buttons {
