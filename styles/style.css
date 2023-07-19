@@ -191,6 +191,8 @@ i {
 
 .card>img:hover {
     filter: grayscale(70%);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    border-radius: 10px;
 }
 
 .card>img {
@@ -236,8 +238,13 @@ i {
     position: relative;
     bottom: 10rem;
     right: 6.25rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
+.play-img-big {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 
 
 /* buttons section start */
@@ -259,6 +266,7 @@ i {
     border-radius: 50px;
     border: 2px solid white;
     background-color: #FFF;
+    transition: border 2s, color 2s;
 }
 
 .btn-all:hover {
@@ -429,8 +437,6 @@ footer {
         grid-template-columns: repeat(3, 1fr);
         gap: 5px;
 
-
-
     }
 
     .btn-all {
@@ -484,5 +490,83 @@ footer {
         padding: 0px;
         margin: 30px 10px;
     }
+
+    /* --------banner section ------- */
+
+    .banner-section {
+        flex-direction: column-reverse;
+
+    }
+
+    .banner-first-img {
+        width: 100%;
+    }
+
+    .banner-second-img img {
+        width: 100%;
+    }
+
+    .banner-content {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .banner-content p {
+        margin-top: 2rem;
+    }
+
+    /* ------play section--------- */
+    .play {
+        flex-direction: column;
+        padding: 0px;
+        gap: 0px;
+        text-align: center;
+    }
+
+    .play-img-big {
+        width: 70%;
+    }
+
+    .play-img {
+        padding-top: 50px;
+    }
+
+    #side-img {
+        width: 30%;
+        bottom: 9rem;
+        right: 15.25rem;
+    }
+
+
+    .play-title,
+    .play-description {
+        text-align: center;
+    }
+
+    .play-title {
+        font-size: 3.2rem;
+    }
+
+
+    /* buttons */
+
+    .buttons {
+        margin-top: 0px;
+        padding: 80px 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+
+    }
+
+    .btn-all {
+        /* padding-bottom: 20px; */
+        margin-bottom: 20px;
+    }
+
 
 }
