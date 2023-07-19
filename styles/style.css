@@ -355,9 +355,15 @@ footer {
         padding: 0px;
     }
 
+    .online-description {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
     .cards-part {
         flex-direction: column;
-        margin: 0px;
+        margin-top: 50px;
+        margin-bottom: 50px;
         justify-content: center;
         align-items: center;
     }
@@ -365,6 +371,7 @@ footer {
     .card {
         width: 80%;
         margin: 0px;
+        margin-bottom: 30px;
 
     }
 
@@ -378,6 +385,10 @@ footer {
 
     .play-img-big {
         width: 70%;
+    }
+
+    .play-img {
+        padding-top: 50px;
     }
 
     #side-img {
