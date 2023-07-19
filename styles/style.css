@@ -302,6 +302,10 @@ footer {
     color: #FFF;
 }
 
+.fotter-social i:hover {
+    color: #FF42A5;
+}
+
 
 
 .copyright,
@@ -312,13 +316,16 @@ footer {
     font-size: 12px;
     font-weight: 400;
 
-
 }
 
 /* ---------------------------------------------------------------- */
 /* responsive */
 
 @media screen and (max-width:576px) {
+
+    body {
+        text-align: center;
+    }
 
     .nav,
     .nav-right,
@@ -350,13 +357,96 @@ footer {
 
     .cards-part {
         flex-direction: column;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
     }
 
     .card {
         width: 80%;
+        margin: 0px;
 
     }
 
+    /* play section */
+    .play {
+        flex-direction: column;
+        padding: 0px;
+        gap: 0px;
+        text-align: center;
+    }
+
+    .play-img-big {
+        width: 70%;
+    }
+
+    #side-img {
+        width: 30%;
+        bottom: 6rem;
+        right: 8.25rem;
+    }
+
+
+    .play-title,
+    .play-description {
+        text-align: center;
+    }
+
+    /* buttons section start */
+
+    .buttons {
+        margin-top: 0px;
+        padding: 80px 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+
+
+
+    }
+
+    .btn-all {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        border-radius: 50px;
+
+    }
+
+    .btn-all>p {
+        font-size: 10px;
+        font-weight: 400;
+        padding-left: 2px;
+    }
+
+    .btn-all>img {
+        width: 25%;
+    }
+
+    /* footer */
+
+    .fotter-types>ul,
+    .fotter-social>ul,
+    .fotter-privacy>ul {
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    .fotter-types li {
+        font-size: 10px;
+        padding-right: 10px;
+    }
+
+    .fotter-privacy {
+        padding: 0px 50px;
+        line-height: 30px;
+    }
+
+    .fotter-privacy li {
+        padding-right: 10px;
+    }
 
 }
 
